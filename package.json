@@ -1,0 +1,38 @@
+{
+  "name": "SSR-react",
+  "version": "1.0.0",
+  "description": "A simple app to showcase server-side rendering with react",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rimraf dist",
+    "build": "webpack",
+    "start": "npm run clean && webpack && node server",
+    "server": "node server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dalalayan1/SSR-react.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dalalayan1/SSR-react/issues"
+  },
+  "homepage": "https://github.com/dalalayan1/SSR-react#readme",
+  "dependencies": {
+    "react": "*",
+    "react-dom": "*"
+  },
+  "devDependencies": {
+    "babel-cli": "*",
+    "babel-loader": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-react": "*",
+    "babel-preset-stage-0": "*",
+    "express": "*",
+    "open": "*",
+    "webpack": "*",
+    "webpack-node-externals": "*"
+  }
+}
